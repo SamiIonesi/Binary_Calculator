@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Jan 25 00:42:53 2024
+# Process ID: 19628
+# Current directory: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/SerialTranceiver/SerialTrasceiver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18932 C:\Users\iones\Desktop\AMD\Binary_Calculator\Modules\SerialTranceiver\SerialTrasceiver\SerialTrasceiver.xpr
+# Log file: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/SerialTranceiver/SerialTrasceiver/vivado.log
+# Journal file: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/SerialTranceiver/SerialTrasceiver\vivado.jou
+# Running On: LAPTOP-IONESI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/SerialTranceiver/SerialTrasceiver/SerialTrasceiver.xpr
+update_compile_order -fileset sources_1

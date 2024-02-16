@@ -1,0 +1,2 @@
+ALU_1 -> https://edaplayground.com/x/D7ff
+ALU_2 -> https://edaplayground.com/x/MFMV

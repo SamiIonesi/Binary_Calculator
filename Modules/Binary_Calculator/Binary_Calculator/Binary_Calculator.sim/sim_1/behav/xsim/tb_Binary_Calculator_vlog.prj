@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Binary_Calculator.srcs/sources_1/new/ALU.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Concatenator.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Control_RW_Flow.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Controller.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/DecInputKey.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Eight_bit_adder.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Four_bit_adder.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/FrequencyDivider.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Full_Adder.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Memory.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Mux_32b.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Mux_4b.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Mux_8b.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/SerialTranceiver.sv" \
+"../../../../Binary_Calculator.srcs/sources_1/new/Binary_Calculator.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

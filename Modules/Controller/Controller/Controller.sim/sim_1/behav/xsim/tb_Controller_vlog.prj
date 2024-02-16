@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../Control_RW_Flow/Control_RW_Flow/Control_RW_Flow.srcs/sources_1/new/Control_RW_Flow.sv" \
+"../../../../../../DecInputKey/DecInputKey/DecInputKey.srcs/sources_1/new/DecInputKey.sv" \
+"../../../../Controller.srcs/sources_1/new/Controller.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

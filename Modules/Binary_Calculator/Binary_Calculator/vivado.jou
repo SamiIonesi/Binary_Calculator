@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Jan 25 12:14:45 2024
+# Process ID: 17264
+# Current directory: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14828 C:\Users\iones\Desktop\AMD\Binary_Calculator\Modules\Binary_Calculator\Binary_Calculator\Binary_Calculator.xpr
+# Log file: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator/vivado.log
+# Journal file: C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator\vivado.jou
+# Running On: LAPTOP-IONESI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator/Binary_Calculator.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator/tb_Binary_Calculator_behav.wcfg
+source tb_Binary_Calculator.tcl
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+save_wave_config {C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator/tb_Binary_Calculator_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/Binary_Calculator/tb_Binary_Calculator_behav.wcfg
+source tb_Binary_Calculator.tcl
+run 1 us
+run 1 us
+run 1 us
+close_sim

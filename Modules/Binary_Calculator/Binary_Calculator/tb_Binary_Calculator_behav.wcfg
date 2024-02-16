@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Binary_Calculator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Binary_Calculator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,352.320 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,715.821 ns"></ZoomEndTime>
+      <Cursor1Time time="2,625.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="85" />
+   <wvobject fp_name="/tb_Binary_Calculator/InA" type="array">
+      <obj_property name="ElementShortName">InA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">InA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/InB" type="array">
+      <obj_property name="ElementShortName">InB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">InB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/Sel" type="array">
+      <obj_property name="ElementShortName">Sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/Addr" type="array">
+      <obj_property name="ElementShortName">Addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/Datain" type="array">
+      <obj_property name="ElementShortName">Datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/ClkTx" type="logic">
+      <obj_property name="ElementShortName">ClkTx</obj_property>
+      <obj_property name="ObjectShortName">ClkTx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ResetTmp" type="logic">
+      <obj_property name="ElementShortName">ResetTmp</obj_property>
+      <obj_property name="ObjectShortName">ResetTmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/CtrlRWMemTmp" type="logic">
+      <obj_property name="ElementShortName">CtrlRWMemTmp</obj_property>
+      <obj_property name="ObjectShortName">CtrlRWMemTmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/CtrlModeTmp" type="logic">
+      <obj_property name="ElementShortName">CtrlModeTmp</obj_property>
+      <obj_property name="ObjectShortName">CtrlModeTmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/CtrlAccessMemTmp" type="logic">
+      <obj_property name="ElementShortName">CtrlAccessMemTmp</obj_property>
+      <obj_property name="ObjectShortName">CtrlAccessMemTmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/RWMem" type="logic">
+      <obj_property name="ElementShortName">RWMem</obj_property>
+      <obj_property name="ObjectShortName">RWMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/RWTmp" type="logic">
+      <obj_property name="ElementShortName">RWTmp</obj_property>
+      <obj_property name="ObjectShortName">RWTmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/InputKey" type="logic">
+      <obj_property name="ElementShortName">InputKey</obj_property>
+      <obj_property name="ObjectShortName">InputKey</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/ValidCmd" type="logic">
+      <obj_property name="ElementShortName">ValidCmd</obj_property>
+      <obj_property name="ObjectShortName">ValidCmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/ConfigDiv" type="logic">
+      <obj_property name="ElementShortName">ConfigDiv</obj_property>
+      <obj_property name="ObjectShortName">ConfigDiv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/CalcActive" type="logic">
+      <obj_property name="ElementShortName">CalcActive</obj_property>
+      <obj_property name="ObjectShortName">CalcActive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/CalcMode" type="logic">
+      <obj_property name="ElementShortName">CalcMode</obj_property>
+      <obj_property name="ObjectShortName">CalcMode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/CalcBusy" type="logic">
+      <obj_property name="ElementShortName">CalcBusy</obj_property>
+      <obj_property name="ObjectShortName">CalcBusy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DOutValid" type="logic">
+      <obj_property name="ElementShortName">DOutValid</obj_property>
+      <obj_property name="ObjectShortName">DOutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DataOut" type="logic">
+      <obj_property name="ElementShortName">DataOut</obj_property>
+      <obj_property name="ObjectShortName">DataOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Addr" type="array">
+      <obj_property name="ElementShortName">Addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Din" type="array">
+      <obj_property name="ElementShortName">Din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Valid" type="logic">
+      <obj_property name="ElementShortName">Valid</obj_property>
+      <obj_property name="ObjectShortName">Valid</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/R_W" type="logic">
+      <obj_property name="ElementShortName">R_W</obj_property>
+      <obj_property name="ObjectShortName">R_W</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Memory/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/TxDone" type="logic">
+      <obj_property name="ElementShortName">TxDone</obj_property>
+      <obj_property name="ObjectShortName">TxDone</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/TxBusyIntern" type="logic">
+      <obj_property name="ElementShortName">TxBusyIntern</obj_property>
+      <obj_property name="ObjectShortName">TxBusyIntern</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/TxBusy" type="logic">
+      <obj_property name="ElementShortName">TxBusy</obj_property>
+      <obj_property name="ObjectShortName">TxBusy</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/StartTx" type="logic">
+      <obj_property name="ElementShortName">StartTx</obj_property>
+      <obj_property name="ObjectShortName">StartTx</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/Sample" type="logic">
+      <obj_property name="ElementShortName">Sample</obj_property>
+      <obj_property name="ObjectShortName">Sample</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/Count_bits" type="array">
+      <obj_property name="ElementShortName">Count_bits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Count_bits[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/InternRegister" type="array">
+      <obj_property name="ElementShortName">InternRegister[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InternRegister[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/Dout" type="logic">
+      <obj_property name="ElementShortName">Dout</obj_property>
+      <obj_property name="ObjectShortName">Dout</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/DataIn" type="array">
+      <obj_property name="ElementShortName">DataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/ClkTx" type="logic">
+      <obj_property name="ElementShortName">ClkTx</obj_property>
+      <obj_property name="ObjectShortName">ClkTx</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/SerialTranceiver/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/Present_state" type="array">
+      <obj_property name="ElementShortName">Present_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Present_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/Next_state" type="array">
+      <obj_property name="ElementShortName">Next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Next_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/ValidCmd" type="logic">
+      <obj_property name="ElementShortName">ValidCmd</obj_property>
+      <obj_property name="ObjectShortName">ValidCmd</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/TxDone" type="logic">
+      <obj_property name="ElementShortName">TxDone</obj_property>
+      <obj_property name="ObjectShortName">TxDone</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/SampleData" type="logic">
+      <obj_property name="ElementShortName">SampleData</obj_property>
+      <obj_property name="ObjectShortName">SampleData</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/TxData" type="logic">
+      <obj_property name="ElementShortName">TxData</obj_property>
+      <obj_property name="ObjectShortName">TxData</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/RWMem" type="logic">
+      <obj_property name="ElementShortName">RWMem</obj_property>
+      <obj_property name="ObjectShortName">RWMem</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/RW" type="logic">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/AccessMem" type="logic">
+      <obj_property name="ElementShortName">AccessMem</obj_property>
+      <obj_property name="ObjectShortName">AccessMem</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/Busy" type="logic">
+      <obj_property name="ElementShortName">Busy</obj_property>
+      <obj_property name="ObjectShortName">Busy</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_CRWF/Active" type="logic">
+      <obj_property name="ElementShortName">Active</obj_property>
+      <obj_property name="ObjectShortName">Active</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/InputKey" type="logic">
+      <obj_property name="ElementShortName">InputKey</obj_property>
+      <obj_property name="ObjectShortName">InputKey</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/ValidCmd" type="logic">
+      <obj_property name="ElementShortName">ValidCmd</obj_property>
+      <obj_property name="ObjectShortName">ValidCmd</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/Mode" type="logic">
+      <obj_property name="ElementShortName">Mode</obj_property>
+      <obj_property name="ObjectShortName">Mode</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/Active" type="logic">
+      <obj_property name="ElementShortName">Active</obj_property>
+      <obj_property name="ObjectShortName">Active</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/Present_state" type="array">
+      <obj_property name="ElementShortName">Present_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Present_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/DUT_DIK/Next_state" type="array">
+      <obj_property name="ElementShortName">Next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Next_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/FrequencyDivider/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/FrequencyDivider/Enable" type="logic">
+      <obj_property name="ElementShortName">Enable</obj_property>
+      <obj_property name="ObjectShortName">Enable</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/FrequencyDivider/ConfigDiv" type="logic">
+      <obj_property name="ElementShortName">ConfigDiv</obj_property>
+      <obj_property name="ObjectShortName">ConfigDiv</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/FrequencyDivider/InternRegister" type="array">
+      <obj_property name="ElementShortName">InternRegister[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InternRegister[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/FrequencyDivider/Din" type="array">
+      <obj_property name="ElementShortName">Din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M1/Din" type="array">
+      <obj_property name="ElementShortName">Din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M1/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M1/Select" type="logic">
+      <obj_property name="ElementShortName">Select</obj_property>
+      <obj_property name="ObjectShortName">Select</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M2/Din" type="array">
+      <obj_property name="ElementShortName">Din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M2/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M2/Select" type="logic">
+      <obj_property name="ElementShortName">Select</obj_property>
+      <obj_property name="ObjectShortName">Select</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M3/Din" type="array">
+      <obj_property name="ElementShortName">Din[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M3/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/M3/Select" type="logic">
+      <obj_property name="ElementShortName">Select</obj_property>
+      <obj_property name="ObjectShortName">Select</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ALU/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ALU/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ALU/Sel" type="array">
+      <obj_property name="ElementShortName">Sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ALU/Flag" type="array">
+      <obj_property name="ElementShortName">Flag[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Flag[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/ALU/Out" type="array">
+      <obj_property name="ElementShortName">Out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/InA" type="array">
+      <obj_property name="ElementShortName">InA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">InA[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/InB" type="array">
+      <obj_property name="ElementShortName">InB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">InB[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/InC" type="array">
+      <obj_property name="ElementShortName">InC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">InC[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/InD" type="array">
+      <obj_property name="ElementShortName">InD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">InD[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/InE" type="array">
+      <obj_property name="ElementShortName">InE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">InE[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Concatenator/Out" type="array">
+      <obj_property name="ElementShortName">Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Binary_Calculator/DUT/Controller/TransferDone" type="logic">
+      <obj_property name="ElementShortName">TransferDone</obj_property>
+      <obj_property name="ObjectShortName">TransferDone</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Frequency_Divider_Testbench_behav" "xil_defaultlib.Frequency_Divider_Testbench" "xil_defaultlib.glbl" -log "elaborate.log" 

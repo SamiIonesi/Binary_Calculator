@@ -1,0 +1,9 @@
+0.7
+2020.2
+Feb 21 2023
+20:21:35
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/ALU.sv,1706281544,systemVerilog,,,,ALU;tb_ALU,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/Eight_bit_adder.sv,1703324158,systemVerilog,,C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/Four_bit_adder.sv,,Eight_bit_adder,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/Four_bit_adder.sv,1703323259,systemVerilog,,C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/Full_Adder.sv,,Four_bit_adder,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/Full_Adder.sv,1703323235,systemVerilog,,C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/ALU/ALU/ALU.srcs/sources_1/new/ALU.sv,,Full_Adder,,uvm,,,,,,

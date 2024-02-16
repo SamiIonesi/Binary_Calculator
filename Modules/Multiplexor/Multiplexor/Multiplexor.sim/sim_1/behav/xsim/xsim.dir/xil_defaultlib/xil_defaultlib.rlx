@@ -1,0 +1,8 @@
+0.7
+2020.2
+Feb 21 2023
+20:21:35
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Multiplexor/Multiplexor/Multiplexor.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Multiplexor/Multiplexor/Multiplexor.srcs/sources_1/new/Mux_32b.sv,1703319036,systemVerilog,,,,Mux_32b;tb_mux_32b,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Multiplexor/Multiplexor/Multiplexor.srcs/sources_1/new/Mux_4b.sv,1703249941,systemVerilog,,,,Mux_4b;tb_mux_4b,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Multiplexor/Multiplexor/Multiplexor.srcs/sources_1/new/Mux_8b.sv,1704114155,systemVerilog,,,,Mux_8b;tb_mux_8b,,uvm,,,,,,

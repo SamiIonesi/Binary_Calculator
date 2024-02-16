@@ -1,0 +1,6 @@
+0.7
+2020.2
+Feb 21 2023
+20:21:35
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/iones/Desktop/AMD/Binary_Calculator/Modules/Binary_Calculator/project_1/project_1.srcs/sources_1/new/asc.sv,1704727461,systemVerilog,,,,ALU;BinaryCalculator;BinaryCalculator_TB;Control_RW_Flow;Controller;DecInputKey;EightBitsFullAdder;FrequencyDivider;Mux;SerialTransceiver;concatenator;fullAdder;memory,,uvm,,,,,,
