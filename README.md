@@ -25,14 +25,14 @@ Mode 1:
 You can ses the full documentation on this [link](https://github.com/SamiIonesi/Binary_Calculator/blob/main/Binary_Calculator_Documentation.pdf).
 
 ## Instructions
-This repository contains the following:
-- an **Arduino** script that contains the code necessary for the sensor to work
-- a **Matlab** script that will display the data taken from the sensor/from the serial on a graph
-- a **documentation** file and also a short **powerpoint** that show the functionality of the sensor
+This repository contains two folders:
+- **Modules** folder contain all the module that is present in the project and also the final module in witch is included the [Binary Claculator](https://github.com/SamiIonesi/Binary_Calculator/tree/main/Modules/Binary_Calculator). Each of this modules include a folder for Vivado Project and also a txt file in witch you can see the projec online on EDA Playground.
+
+  Ex.: For ALU we have a folder for [Vivado Project](https://github.com/SamiIonesi/Binary_Calculator/tree/main/Modules/ALU/ALU) and also a [txt file](https://github.com/SamiIonesi/Binary_Calculator/blob/main/Modules/ALU/Link_EDAPlayground.txt) where we can see the [link](https://edaplayground.com/x/MFMV) to EDA Playground.
+
+- **Verification** folder have three folder in witch we can see the scripts for verification of a mode and also the txt file with the link to EDA playground.
+
+  Ex.: Mode0 Verification have the [scripts](https://github.com/SamiIonesi/Binary_Calculator/tree/main/Verification/Verification_Mode0) and also the [txt file](https://github.com/SamiIonesi/Binary_Calculator/blob/main/Verification/Verification_Mode0/Verification_Mode0.txt) with the [link](https://edaplayground.com/x/Hjv5) to EDA Playground.
 
 ## Installing
-1. For the Arduino script you'll need to download the:
-  - [Arduino IDE](https://www.arduino.cc/en/software)
-2. For the Matlab script you'll need to install:
-  - [Matlab](https://www.mathworks.com/products/matlab.html)
-  - or you can acces [Matlab Online](https://www.mathworks.com/products/matlab-online.html)
+If you want to work on this project and see it localy to you're computer, first of all you'll need to install Vivado on you're computer following this [link](https://www.xilinx.com/developer/products/vivado.html), but if you prefer to work and see it online, for each modules and verification part you have a txt file that have the link to the EDA Playground with contain the code for each components and also the testbanchs. 
